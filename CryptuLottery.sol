@@ -36,11 +36,7 @@ contract CryptuLottery is ReentrancyGuard, ICryptuLottery, Ownable {
     uint256 public constant MIN_DISCOUNT_DIVISOR = 300;
     uint256 public constant MIN_LENGTH_LOTTERY = 4 hours - 5 minutes; // 4 hours
     
-   //************************************************************** */
-   //  as test 
-   //10 seconds;
-   // uint256 public constant MIN_LENGTH_LOTTERY = 1 minutes; //4 hours;
-   //******************************************************************** */
+  
    
     uint256 public constant MAX_LENGTH_LOTTERY =7 days+ 5 minutes;// 4 days + 5 minutes; // 4 days
     uint256 public constant MAX_TREASURY_FEE = 3000; // 30%
@@ -149,7 +145,7 @@ contract CryptuLottery is ReentrancyGuard, ICryptuLottery, Ownable {
      event  OnCommisionTransfered(uint256 amount,bytes10 refCode);//optional event that shows the commission transfer
      ICryptuPromotionManager public promotionManager; //promotion manager contract instance
 
-    //*****************************************************
+    //***********************************************************************************************
     /**
      * @notice Constructor
      * @dev RandomNumberGenerator must be deployed prior to this contract
