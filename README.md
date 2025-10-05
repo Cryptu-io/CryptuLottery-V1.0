@@ -1,4 +1,4 @@
-# Cryptu Lottery-V1.0
+# CryptuLottery-V1.0
 Cryptu Lottery Smart Contract v1.0 (CryptuLotto) Using ChainLink VRF v2 and CryptuPromotionManager V1.0
 
 This is a fork of Pancakeswap Lottery smart contract(https://github.com/pancakeswap/pancake-smart-contracts/tree/master) which uses ChainLink's VRF v2, that is more safe and convenient random generator than V1.
