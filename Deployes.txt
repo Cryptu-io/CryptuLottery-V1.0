@@ -1,0 +1,12 @@
+1.Deploy Random Generator.
+2.Deploy Lottery contract:
+    2.1: Specify your Cake token address(your own token as currency)
+    2.2: Specify Cryptu Promotion Contract address(for BSC test it is supplied below) .
+    2.3: Specify the ChainLink VRF2 Random Generator contract address, deployed on the 1st step. 
+
+
+On BSC Testnet:
+Promotion Manager:0xbf18572A79107DCC9D299d9Ac7951104382c3bea with Dexrouter
+Cake: tfarty 0x21Ae9bfB627B42A4E9A3a44fc3FF178D6a9e8045
+
+ 
